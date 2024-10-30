@@ -38,6 +38,11 @@ jobs:
 
 ### 📤 Outputs
 
-- **data** - Generated auth from vault secret.
+- **data** - Generated JSON string (or JSON string in BASE64 if **to_base64** is **true**) from vault secret.
+```json
+{"secret_1_key":"secret_1_value","secret_2_key":"secret_2_value", ...}
+or 
+eyJzZWNyZXRfMV9rZXkiOiJzZWNyZXRfMV92YWx1ZSIsInNlY3JldF8yX2tleSI6InNlY3JldF8yX3ZhbHVlIn0K
+```
 
 #### Created with ❤️ for everyone :)
