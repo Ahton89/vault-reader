@@ -34,6 +34,7 @@ jobs:
 - **vault_role_id** _(required)_ - Role id for auth in the Vault
 - **vault_secret_id** _(required)_ - Secret id for auth in the Vault
 - **vault_secret_version** _(optional)_ - If empty - uses last version of secret.
+- **to_base64** _(optional)_ - Convert JSON string to BASE64 string.
 
 ### 📤 Outputs
 
